@@ -1,10 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>自我介绍</title>
+<style>
+      body {
+        background-image: url('static/img/R-C.jpg'); /* 设置背景图片 */
+        background-size: cover; /* 覆盖整个页面 */
+        background-position: center; /* 图片居中 */
+        background-repeat: no-repeat; /* 不重复 */
+        height: 900px;
+      }
+      .personal-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .personal-info .avatar {
+        margin-right: 20px;
+      }
+      .personal-info .avatar img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .personal-info .intro {
+        flex-grow: 1;
+        width: 300px;
+        font-size: 25px
+      }
+      .personal-info label {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      .personal-info li {
+        list-style: none;
+        margin: 0;
+        color: gold;
+      }
+</style>
 </head>
 <body>
-<h1>韦民好帅</h1>
+<div>
+  <h1 style="color: gold;font-weight: bold;text-align: center">欢迎来到我的主页</h1>
+</div>
+<div class="personal-info">
+
+  <div class="avatar">
+    <img src="/static/img/me.jpg" alt="头像" class="page" style="margin-bottom: 50px">
+  </div>
+  <div class="intro" style="margin-bottom: 50px">
+    <ul>
+      <li><label>学号:</label> 202314600514</li>
+      <li><label>姓名:</label> 贾泽粮</li>
+      <li><label>专业:</label> 计算机科学与技术</li>
+      <li><label>就读学校:</label> 华北理工大学</li>
+      <li><label>学院:</label> 人工智能学院</li>
+      <li><label>班级:</label> 23计科5班</li>
+    </ul>
+  </div>
+
+</div>
+    <div style="color: gold;margin-left: 350px;font-size: 50px;font-weight:bold;margin-bottom: 50px">
+      个人分析
+    </div>
+      <div style="color: gold;margin-left: 350px;font-size: 25px;font-weight:bold;margin-bottom: 400px">
+        <ul>
+          <li><label>爱好:</label> 唱跳rap打篮球</li>
+          <li><label>座右铭:</label>生而无畏，战至终章</li>
+        </ul>
+      </div>
+<a href="new.html" style="">个人简介</a>
 </body>
 </html>
